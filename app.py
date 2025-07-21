@@ -110,4 +110,4 @@ experience = st.number_input("Enter years of experience:")
 if st.button("Predict Salary"):
     prediction = model.predict([[experience]])
     st.success(f"Predicted Salary: {prediction[0]:,.2f}")
->>>>>>> fc528adfd4fcafbf826cac6bf04d90d044cec0fd
+fc528adfd4fcafbf826cac6bf04d90d044cec0fd
