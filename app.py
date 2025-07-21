@@ -54,7 +54,7 @@ experience = st.number_input("Enter years of experience:")
 if st.button("Predict Salary"):
     prediction = model.predict([[experience]])
     st.success(f"Predicted Salary: {prediction[0]:,.2f}")
-=======
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
